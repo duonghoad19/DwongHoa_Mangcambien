@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+header{
+    font-size: 50px;
+    text-align: center;
+    border: 12px;
+    background-color: aqua;
+
+}
+
+.khoi_1{
+    font-size: 100%;
+}
+.khoi_1 .cot1{
+    background-color: rgb(150, 245, 231);
+    width: 33%;
+    text-align: center;
+}
+.khoi_1 .cot2{
+    background-color: rgb(150, 245, 231);
+    width: 33%;  text-align: center;
+}
+.khoi_1 .cot3{
+    background-color: rgb(150, 245, 231);
+    width: 34%;  text-align: center;
+}
+.box{
+    width: 10vw;
+    height: 90vh;
+}
+#anh_chen{
+    width: 30%;
+    height: 90%;
+}
+.khoi_2 .cot1{
+    width: 30%;
+}
+.khoi_2 .cot2{
+    width: 20%;
+    background-color: aqua;
+}
+.khoi_2 .cot1 #add_image{
+    width: 70vw;
+    height: 50vh;
+}
+.khoi_1 .cotx{
+    background-color: rgb(195, 245, 231);
+    width: 33%;  text-align: center;
+}
+.khoi_1 .coty{
+    background-color: rgb(195, 245, 231);  text-align: center;
+    width: 33%;} 
+    .khoi_1 .cotz{
+        background-color: rgb(195, 245, 231);
+        width: 33%;  text-align: center;
+    }
