@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bootstrap of Duong Cong Hoa</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        <link rel="stylesheet" href="style1.css">
+        <script src="example.js" > </script>
+    </head>
+    <body>
+        <header>Dương Công Hòa - B19DCDT084</header>
+        <div class="container">
+            <div class="row">
+                <div id="content" class="col-4 temp">
+                     Nhiệt độ : <span id="valueTemperature"></span> <br>
+                     <input id="inputValue" type="range" min ="1" max="10" onchange ="hamdoimau(event)"/>
+                  </div>
+                <div class="col-4 doAm">
+                    <div class="row wet1">wet1</div>
+                    <div class="row wet2">wet2</div>
+                </div>
+                <div class="col-4 anhSang">
+                    <div class="row light1">light1</div>
+                    <div class="row light2">light2</div>
+                </div>
+            </div>
+        </div>
+        <div class="container_image">
+            <div class="row">
+                <div class="col-8 image1">
+                    <img class="anhne" style="margin-left: 6%;" src="hanoinews.png">
+                
+                </div>
+                <div class="col-4 button">
+                    <div class=" bnt1">
+                        <p style="text-align: center">LED 1</p>
+                        <div class="btn-group btn-group-toggle" data-toggle="buttons" style="margin-left: 35%; margin-bottom: 25%;">
+                          <label class="btn btn-secondary active">
+                            <input type="radio" name="options" id="option1" autocomplete="off" checked> ON
+                          </label>
+                          <label class="btn btn-secondary">
+                            <input type="radio" name="options" id="option2" autocomplete="off"> OFF
+                          </label>
+                    </div>
+                    <div class=" bnt2">
+                        <p style="text-align: center">LED 2</p>
+                        <label style="margin-left: 42% ;" class="switch">
+                          <input type="checkbox">
+                          <span class="slider"></span>
+                        </label>
+                          </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
